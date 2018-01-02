@@ -6,7 +6,11 @@ class Post
   end
 
   def title
-    
+
+  end
+
+  def author_name
+    self.author.name
   end
 
 end
