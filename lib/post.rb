@@ -5,5 +5,8 @@ class Post
     @name = name
   end
 
-  
+  def title
+    
+  end
+
 end
