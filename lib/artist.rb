@@ -26,6 +26,7 @@ class Artist
 
   def self.song_count
     song = Song.new(name)
+    binding.pry
     @songs << song
     @@song_count = @songs.length
   end
